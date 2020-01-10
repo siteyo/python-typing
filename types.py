@@ -8,4 +8,6 @@ class Point(TypedDict):
     label: str
 
 
-Line = List[Point]
+class Line(TypedDict):
+    points: List[Point]
+    label: str
