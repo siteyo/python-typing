@@ -1,6 +1,6 @@
 # coding: utf-8
 
-from types import Line, Point
+from types import Line, Point, MyStack
 
 p1: Point = {"x": 10, "y": 5, "label": "S"}  # ok
 p2: Point = {"x": 15, "y": 2, "label": "D"}  # ok
